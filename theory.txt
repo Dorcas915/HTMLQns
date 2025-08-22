@@ -1,0 +1,59 @@
+1. What is HTML and why is it important for web development?
+
+HTML (HyperText Markup Language) is the standard language used to create the structure of web pages.
+
+It defines elements like headings, paragraphs, images, links, forms, tables, and more.
+
+Without HTML, browsers would have no instructions on how to display content.
+
+It’s important because it provides the foundation of every website. CSS (for styling) and JavaScript (for interactivity) are built on top of HTML.
+
+
+2. Difference between HTML elements and tags
+
+Tags are the actual code snippets enclosed in angle brackets (e.g., <p>, </p>, <img>).
+
+Elements are the complete structure consisting of opening tag, content (if any), and closing tag.
+
+
+3. New features introduced in HTML5
+
+HTML5 introduced many improvements over older versions. Some key features:
+
+New semantic elements: <header>, <footer>, <article>, <section>, <nav>, etc. (help with structure & SEO)
+
+Multimedia support: <audio> and <video> tags (no need for plugins like Flash)
+
+Form enhancements: new input types like email, date, range, number
+
+Canvas & SVG: for drawing graphics and animations
+
+Local storage & session storage: store data in the browser without cookies
+
+Geolocation API: get the user’s location
+
+Responsive design support: better with <meta viewport>
+
+
+4. Ensuring accessibility in HTML
+
+To make web content usable by people with disabilities, follow web accessibility practices:
+
+Use semantic HTML (e.g., use <button> instead of clickable <div>)
+
+Provide alt text for images (<img src="..." alt="Description">)
+
+Ensure good color contrast and readable fonts
+
+Use labels for form fields (<label for="email">Email</label>)
+
+Enable keyboard navigation (e.g., don’t trap focus)
+
+Use ARIA roles when semantic HTML isn’t enough
+
+
+5. What is the Document Object Model (DOM), and how does it relate to HTML?
+
+The DOM is a tree-like representation of a web page that browsers create after reading your HTML.
+
+Each HTML element becomes a node in the tree1
